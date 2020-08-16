@@ -197,11 +197,7 @@ else{
   <div class="container my-4">
     <h2>STUDENT TEACHER PORTAL</h2>
     <form action="/inquilab/studentportal.php" method="POST"  enctype="multipart/form-data">
-    <div class="form-group">
-                      <img src="images/profile.png" onclick="triggerClick()" id="profileDisplay">   
-                    <label for="profileImage">Product image</label>
-                         <input type="file" name="profileImage[]"  onchange="displayImage(this)" id="profileImage" style="display:none;" class="form-control" multiple>
-                      </div>
+   
 
     <div class="form-group">
               <label for="title">Team Modules</label>
