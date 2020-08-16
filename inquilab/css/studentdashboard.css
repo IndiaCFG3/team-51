@@ -1,0 +1,85 @@
+.nav-item {
+    color: floralwhite;
+
+}
+
+.logoimg{
+    padding:10px;
+}
+.row-header {
+margin: 0px auto;
+padding: 0px 0px; }
+
+.row-content {
+margin: 0px auto;
+padding: 50px 0px;
+border-bottom: 1px ridge;
+min-height: 400px; }
+
+.footer {
+background-color: #26418f;
+margin: 0px auto;
+padding: 20px 0px; }
+.footer {
+  background-color: #5c6bc0;
+ }
+
+.jumbotron {
+margin: 0px auto;
+padding: 70px 30px;
+background: #9575CD;
+color: floralwhite; }
+
+address {
+font-size: 80%;
+margin: 0px;
+color: #0f0f0f; }
+
+body {
+padding: 50px 0px 0px 0px;
+z-index: 0; }
+
+.navbar-dark {
+background-color: #5c6bc0; }
+
+.tab-content {
+border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+padding: 10px; }
+
+.carousel {
+background: #512DA8; }
+.carousel .carousel-item {
+  height: 300px; }
+  .carousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px; }
+.card {
+margin-bottom: 20px;
+
+}
+#carouselButton {
+right: 0px;
+position: absolute;
+bottom: 0px;
+z-index: 1; }
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+
+
+
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
