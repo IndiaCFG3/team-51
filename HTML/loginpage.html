@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body{
   background-image:url('https://schoolfurnishings.com/wp-content/uploads/2020/02/AdobeStock_301243376-scaled.jpeg');
@@ -17,10 +18,8 @@ body{
  top:20px;
  left:150px;
 }
-button:hover{
-background-color:black;
-border:3px solid red;
-color:white;
+button:hover,img{
+border:5px solid red;
 }
 .button2{
  color:solid black;
@@ -38,7 +37,11 @@ position:relative;
   top:75px;
   left:-90px;
 }
-
+button:onmouseover{
+img{
+border:5px solid red;
+}
+}
 .img2{
   border-radius:100px;
   border:5px solid black;
@@ -51,7 +54,8 @@ width:20%;
 </style>
 </head>
 <body>
-<button onclick="" class="button1">STUDENT-TEACHER Login</button>
+
+<button onclick="" class="button1" >STUDENT-TEACHER Login</button>
 <button onclick="" class="button2">ASSOCIATES</button>
 
 <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTl5NxsCHKL8Gr2lqatsVynefHPkda6uMkUQQ&usqp=CAU" alt=A picture of classroom">
