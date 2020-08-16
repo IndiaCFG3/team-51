@@ -1,5 +1,6 @@
-"# team-51"
-#trial comment by Kaustubh
-#trial comment by ashritha
-#trial by devansh
-#trail comment by Siddarth
+# Quaranteens-51
+
+## Helper Project for Inqui-Lab
+click [here](http://www.inqui-lab.org/index.html) to know more about Inqui-lab foundation.
+
+Web application which acts as a helper/companion for **Student-Teachers** and **Associates**!
