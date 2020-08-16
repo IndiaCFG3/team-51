@@ -111,36 +111,26 @@ else{
 <body>
 
     <header>
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand mr-auto logoimg" href="#"><img src="images/logo.png" height="60" width="81"></a>
-
-                <div class="collapse navbar-collapse" id="Navbar">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">Inqui-Lab Foundation</li>
-                    </ul>
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a href="#"style="color:black">Dashboard</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a href="#"style="color:black">Analysis</a>
-                        </li>
-                    </ul>
-
-                    <span class="navbar-text btn-sm bg-primary">
-                        <a href="#" class="btn btn-primary"><span class="fa fa-sign-in"></span>Logout</a>
-
-                    </span>
-
-                </div>
-            </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">INQUILABS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">DASHBOARD <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ANALYSIS</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" style="margin-left: 400px;">LOGOUT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
         </header>
         <br/>
         <br/>
