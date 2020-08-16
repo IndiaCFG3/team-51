@@ -33,9 +33,9 @@ if($submitType == "loginstudent"){
       //  $_SESSION['email'] = $email;
       
         echo '<script>alert("Login Successful")</script>';
-       // echo'<script> setTimeout(function () {
-           // window.location.href = "";
-        // }, 2000);</script>';
+       echo'<script> setTimeout(function () {
+           window.location.href = "studentportal.php";
+         }, 2000);</script>';
         }
         
      else {
@@ -73,9 +73,9 @@ if($submitType == "loginstudent"){
           //  $_SESSION['email'] = $email;
           
             echo '<script>alert("Login Successful")</script>';
-           // echo'<script> setTimeout(function () {
-               // window.location.href = "";
-            // }, 2000);</script>';
+            echo'<script> setTimeout(function () {
+             window.location.href = "associate.php";
+             }, 2000);</script>';
             }
             
          else {
