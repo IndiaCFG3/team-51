@@ -2,18 +2,21 @@
     margin: 0;
     padding: 0;
   }
-  
+
   body{
     background: #e9eaea;
     font-family: roboto;
     user-select: none;
   }
-  
+
   .container{
     width: 450px;
     margin: 30px auto;
   }
-  
+  .wrapper{
+    margin: auto;
+  }
+
   .signup,
   .login{
     width: 50%;
@@ -25,7 +28,7 @@
     cursor: pointer;
     text-transform: uppercase;
   }
-  
+
   .signup-form,
   .login-form{
     background: #fff;
@@ -35,7 +38,7 @@
     box-sizing: border-box;
     height: 400px;
   }
-  
+
   .input{
     width: 100%;
     padding: 20px;
@@ -47,14 +50,14 @@
     outline: none;
     transform: all 0.5s ease;
   }
-  
+
   .input:focus{
-    border: 2px solid #34b3a0;
+    border: 2px solid #01BBD3;
   }
-  
+
   .btn{
     width: 100%;
-    background: #34b3a0;
+    background: #01BBD3;
     height: 60px;
     text-align: center;
     line-height: 60px;
@@ -65,12 +68,15 @@
     cursor: pointer;
     margin-bottom: 30px;
   }
-  
+  .btn:hover{
+    background: #2195F2;
+  }
+
   span a{
     text-decoration: none;
     color: #000;
   }
-  
+
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #3e3e40;
     font-family: roboto;
@@ -86,42 +92,4 @@
   :-moz-placeholder { /* Firefox 18- */
     color: #3e3e40;
     font-family: roboto;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* youtube link */
-  .youtube{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 160px;
-    text-align: center;
-    padding: 15px 10px;
-    background: #bb0000;
-    border-radius: 5px;
-  }
-  
-  .youtube a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: capitalize;
-    letter-spacing: 1px;
   }

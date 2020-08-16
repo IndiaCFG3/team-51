@@ -12,9 +12,9 @@
 <body>
 <div class="wrapper">
     <div class="container">
-      
-      <div class="signup">Log in as a Student Teacher</div>
-      <div class="login">Log in as an Assosiate</div>
+
+      <div class="signup">Student Teacher Login</div>
+      <div class="login">Associate Log In</div>
       <form onsubmit="return false;">
        <div class="signup-form">
           <input type="text" id="email" placeholder="Your Email Address" class="input"><br/>
@@ -33,7 +33,7 @@
          <!-- <span><a href="#">I forgot my username or password.</a></span>-->
        </div>
        </form>
-      
+
     </div>
   </div>
 
@@ -51,7 +51,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/core.js"></script>
-   
+
 <script>
 $(".login-form").hide();
 $(".login").css("background", "none");
